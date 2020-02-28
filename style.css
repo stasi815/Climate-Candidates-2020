@@ -1,16 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
 body {
     font-family: Helvetica;
-    background-color: blue;
     font-size: 16px;
     color: rgb(0, 0, 0);
     margin: 0;
 }
 
-nav {
-    background-color: rgb(255, 255, 255);
+.nav {
+    background-color: rgb(18, 18, 52, 1);
     margin: 0;
-    color: rgb(28, 33, 65);
-    padding: 1em;
+    color: white;
+    padding: .5em;
+    position: fixed;
+    width: 100%;
     justify-content: flex-end;
 }
 
@@ -22,5 +28,190 @@ nav {
 
 .nav-list a {
     display: block;
-    padding: 0.5em;
+    text-decoration: none;
+    padding: .5em;
+    color: white;
+  }
+
+a.selected {
+    background-color:grey;
+    color: #fff;
+  }
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 0;
 }
+
+section > ul {
+    padding: 5em;
+}
+
+li {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Section classes */
+
+.bernie {
+
+    background-color: #572e6d;
+    padding-top: 10em;
+
+}
+
+.tom {
+    background-color: #573d85;
+    padding-top: 10em;
+
+}
+
+.elizabeth {
+    background-color: #6c387c;
+    padding-top: 10em;
+
+}
+
+.pete {
+    background-color: #48376e;
+    padding-top: 10em;
+
+}
+
+.joe {
+    background-color: #572e6d;
+}
+
+/* Image classes */
+
+.bs {
+    width: 100%;
+    height: auto;    
+    vertical-align: bottom;
+    bottom: 0;
+}
+
+.ts {
+    width: 100%;
+    height: auto;   
+    vertical-align: bottom;
+    bottom: 0;
+    border: none;
+}
+
+.ew {
+    width: 100%;
+    height: auto;   
+    vertical-align: bottom;
+    bottom: 0;
+}
+
+.pb {
+    width: 100%;
+    height: auto;   
+    vertical-align: bottom;
+    bottom: 0;
+}
+
+.jb {
+    width: 100%;
+    height: auto;   
+    vertical-align: bottom;
+    bottom: 0;
+}
+
+/* Image div classes */
+.bernie-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.tom-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+
+}
+
+.liz-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+
+}
+
+.pete-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+
+}
+
+.joe-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+
+}
+
+/* Fact classes */
+
+.bernie-facts {
+    float: left;
+    width: 35%;
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 3em;
+}
+
+.tom-facts {
+    float: right;
+    width: 35%;
+    margin: 0;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+
+.elizabeth-facts {
+    float: left;
+    width: 35%;
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 3em;
+
+}
+
+.pete-facts {
+    float: right;
+    width: 35%;
+    margin: 0;
+    padding-right: 3em;
+    padding-bottom: 3em;
+
+}
+
+.joe-facts {
+    float: left;
+    width: 35%;
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 3em;
+
+}
+
+
+
+
+
