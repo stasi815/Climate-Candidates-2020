@@ -69,14 +69,14 @@ a.selected {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     background-color:  #573d85;
     color: white;
     margin: 0;
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 5em;
 }
 
 .header > p {
@@ -107,7 +107,10 @@ ul li {
 /* Section classes */
 
 .slideshow {
-    background-color: #573d85 ;
+    background-color: #573d85;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .bernie{
@@ -127,6 +130,7 @@ ul li {
     flex-direction: row;
     background-color: #48376e;
 }
+
 .joe {
     background-color: #572e6d;
     padding-top: 1em;
@@ -138,7 +142,7 @@ ul li {
 section > .candidateB, .candidateE, .candidateT, .candidateP, .candidateJ {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
 }
 
 /* ------------------------------ */
@@ -149,6 +153,8 @@ section .bs, .ts, .ew, .pb, .jb {
     height: auto;
     vertical-align: bottom;
     bottom: 0;
+    align-self: flex-end;
+
 }
 
 /* ------------------------------ */
@@ -160,6 +166,7 @@ section .bs, .ts, .ew, .pb, .jb {
     margin: 0;
     padding-left: 3em;
     padding-bottom: 3em;
+    align-self: center;
 }
 
 .tom-facts, .pete-facts {
@@ -168,4 +175,5 @@ section .bs, .ts, .ew, .pb, .jb {
     margin: 0;
     padding-right: 3em;
     padding-bottom: 3em;
+    align-self: center;
 }
