@@ -70,6 +70,7 @@ section {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
 section > ul {
@@ -89,32 +90,32 @@ ul li {
     background-color: #573d85 ;
 }
 
-.bernie, .joe{
+.bernie{
     background-color: #572e6d;
-    padding-top: 5em;
 }
 
 .tom {
     background-color: #573d85;
-    padding-top: 5em;
 }
 
 .elizabeth {
     background-color: #6c387c;
-    padding-top: 5em;
 }
 
 .pete {
     display: flex;
     flex-direction: row;
     background-color: #48376e;
-    padding-top: 5em;
+}
+.joe {
+    background-color: #572e6d;
+    padding-top: 1em;
 }
 
 /* ------------------------------ */
 /* Candidate Classes */
 
-section > .candidateB, .candidateE, .candidateT, .candidateP {
+section > .candidateB, .candidateE, .candidateT, .candidateP, .candidateJ {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -131,50 +132,6 @@ section .bs, .ts, .ew, .pb, .jb {
 }
 
 /* ------------------------------ */
-/* Image div classes */
-/* .bernie-pic {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0;
-    align-self: flex-end;
-}
-
-.candidateT .tom-pic {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0;
-    align-self: flex-end;
-
-}
-
-.liz-pic {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0;
-    align-self: flex-end;
-
-}
-
-.candidateP .pete-pic {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0;
-    align-self: flex-end;
-
-} */
-
-.joe-pic {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-self: flex-end;
-
-}
-
 /* Fact classes */
 
 .bernie-facts, .elizabeth-facts, .joe-facts {
@@ -192,8 +149,3 @@ section .bs, .ts, .ew, .pb, .jb {
     padding-right: 3em;
     padding-bottom: 3em;
 }
-
-
-
-
-
