@@ -3,7 +3,7 @@ AOS.init();
 
 // Waypoints
 
-['sanders', 'steyer', 'warren', 'buttigieg', 'biden'].forEach(function(id) {
+['CC2020', 'sanders', 'steyer', 'warren', 'buttigieg', 'biden'].forEach(function(id) {
   new Waypoint({
     element: document.getElementById(id),
     handler: function() {

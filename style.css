@@ -81,6 +81,7 @@ ul li {
     color: white;
     line-height: 1.5em;
     padding: .5em;
+    font-size: 18px;
 }
 
 /* ------------------------------ */
@@ -118,7 +119,7 @@ ul li {
 section > .candidateB, .candidateE, .candidateT, .candidateP, .candidateJ {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
 }
 
 /* ------------------------------ */
