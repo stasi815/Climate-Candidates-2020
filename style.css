@@ -45,112 +45,94 @@ a.selected {
     color: #fff;
   }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+    background-color:  #573d85;
+    color: white;
+    margin: 0;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.header > p {
+    padding: 0em 0em 0em 1em;
+    font-size: 2em;
+    margin: 0;
+}
+
 section {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 0;
 }
 
 section > ul {
     padding: 5em;
 }
 
-li {
+ul li {
     color: white;
-    font-weight: bold;
+    line-height: 1.5em;
+    padding: .5em;
 }
 
-
+/* ------------------------------ */
 /* Section classes */
 
 .slideshow {
     background-color: #573d85 ;
-    margin-top: 48px;
 }
 
-.bernie {
-
+.bernie, .joe{
     background-color: #572e6d;
-    padding-top: 10em;
-
+    padding-top: 5em;
 }
 
 .tom {
     background-color: #573d85;
-    padding-top: 10em;
-
+    padding-top: 5em;
 }
 
 .elizabeth {
     background-color: #6c387c;
-    padding-top: 10em;
-
+    padding-top: 5em;
 }
 
 .pete {
+    display: flex;
+    flex-direction: row;
     background-color: #48376e;
-    padding-top: 10em;
-
+    padding-top: 5em;
 }
 
-.joe {
-    background-color: #572e6d;
-}
-
+/* ------------------------------ */
 /* Candidate Classes */
-.candidateE {
+
+section > .candidateB, .candidateE, .candidateT, .candidateP {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
-section > div {
-    display: flex;
-    flex-direction: row;
-}
-
+/* ------------------------------ */
 /* Image classes */
 
-.bs {
+section .bs, .ts, .ew, .pb, .jb {
     width: 100%;
-    height: auto;    
+    height: auto;
     vertical-align: bottom;
     bottom: 0;
 }
 
-.ts {
-    width: 100%;
-    height: auto;   
-    vertical-align: bottom;
-    bottom: 0;
-    border: none;
-}
-
-.ew {
-    width: 100%;
-    height: auto;   
-    vertical-align: bottom;
-    bottom: 0;
-}
-
-.pb {
-    width: 100%;
-    height: auto;   
-    vertical-align: bottom;
-    bottom: 0;
-}
-
-.jb {
-    width: 100%;
-    height: auto;   
-    vertical-align: bottom;
-    bottom: 0;
-}
-
+/* ------------------------------ */
 /* Image div classes */
-.bernie-pic {
+/* .bernie-pic {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -158,7 +140,7 @@ section > div {
     align-self: flex-end;
 }
 
-.tom-pic {
+.candidateT .tom-pic {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -176,27 +158,26 @@ section > div {
 
 }
 
-.pete-pic {
+.candidateP .pete-pic {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin: 0;
     align-self: flex-end;
 
-}
+} */
 
 .joe-pic {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 0;
     align-self: flex-end;
 
 }
 
 /* Fact classes */
 
-.bernie-facts {
+.bernie-facts, .elizabeth-facts, .joe-facts {
     float: left;
     width: 35%;
     margin: 0;
@@ -204,40 +185,12 @@ section > div {
     padding-bottom: 3em;
 }
 
-.tom-facts {
+.tom-facts, .pete-facts {
     float: right;
     width: 35%;
     margin: 0;
     padding-right: 3em;
     padding-bottom: 3em;
-}
-
-.elizabeth-facts {
-    float: left;
-    width: 35%;
-    margin: 0;
-    padding-left: 3em;
-    padding-bottom: 3em;
-
-}
-
-.pete-facts {
-    float: right;
-    width: 35%;
-    margin: 0;
-    padding-right: 3em;
-    padding-bottom: 3em;
-    justify-self: flex-start;
-
-}
-
-.joe-facts {
-    float: left;
-    width: 35%;
-    margin: 0;
-    padding-left: 3em;
-    padding-bottom: 3em;
-
 }
 
 
