@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Climate Candidates</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="ms-slide-show.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <style>
+
+        /* Developer Styles */
+        #slides {
+            border: 2px solid;
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+        }
+
+        #slides-2 {
+            width: 300px;
+            height: 169px;
+        }
+
+    </style>
 </head>
+
 <body>
     <main class="container">
             <div class="nav">
@@ -19,6 +36,17 @@
                     <li><a href="#biden">Joe Biden</a></li>
                 </ul>
             </div><br>
+
+            <section class="slideshow" id="climate-slides">
+                <div id="slides" class="ms-slideshow" data-delay="3000" data-transition="400">
+                    <div class="slides-inner">
+                        <img src="images/fossil_fuels.jpg" width="1200" height="400" alt="fossilFuel">
+                        <img src="images/iceMelt.jpg" width="1200" height="400" alt="iceMelt">
+                        <img src="images/blue_to_dry.jpg" width="1200" height="400" alt="climate-change">
+                        <img src="images/EarthDay.png" width="1200" height="400" alt="earthDay">
+                    </div>
+                </div>
+            </section>
 
             <section class="bernie" id="sanders">
                 <div class="candidateB">
@@ -107,9 +135,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Waypoints -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script src="ms-slide-show.js"></script>
     <!-- Smooth Scroll -->
     <script src="smoothscroll.js"></script>
+    <!-- Slideshow scripts -->
+    <script src="slide-show.js"></script>
     <!-- My Scripts  -->
     <script src="main.js"></script>
 </body>

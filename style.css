@@ -10,7 +10,14 @@ body {
     margin: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .nav {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(18, 18, 52, 1);
     margin: 0;
     color: white;
@@ -59,6 +66,11 @@ li {
 
 /* Section classes */
 
+.slideshow {
+    background-color: #573d85 ;
+    margin-top: 62px;
+}
+
 .bernie {
 
     background-color: #572e6d;
@@ -86,6 +98,17 @@ li {
 
 .joe {
     background-color: #572e6d;
+}
+
+/* Candidate Classes */
+.candidateE {
+    display: flex;
+    flex-direction: row;
+}
+
+section > div {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Image classes */
@@ -132,6 +155,7 @@ li {
     flex-direction: row;
     justify-content: flex-end;
     margin: 0;
+    align-self: flex-end;
 }
 
 .tom-pic {
@@ -139,6 +163,7 @@ li {
     flex-direction: row;
     justify-content: flex-start;
     margin: 0;
+    align-self: flex-end;
 
 }
 
@@ -147,6 +172,7 @@ li {
     flex-direction: row;
     justify-content: flex-end;
     margin: 0;
+    align-self: flex-end;
 
 }
 
@@ -155,6 +181,7 @@ li {
     flex-direction: row;
     justify-content: flex-start;
     margin: 0;
+    align-self: flex-end;
 
 }
 
@@ -163,6 +190,7 @@ li {
     flex-direction: row;
     justify-content: flex-end;
     margin: 0;
+    align-self: flex-end;
 
 }
 
@@ -199,6 +227,7 @@ li {
     margin: 0;
     padding-right: 3em;
     padding-bottom: 3em;
+    justify-self: flex-start;
 
 }
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slides</title>
+        <link rel="stylesheet" href="slideshow.css">
+        <style>
+
+            /* Developer Styles */
+            #slides {
+                border: 2px solid red;
+                width: 1200px;
+                height: 400px;
+                margin: auto;
+            }
+
+            #slides-2 {
+                width: 300px;
+                height: 169px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="slides" class="ms-slideshow" data-delay="3000" data-transition="400">
+            <div class="slides-inner">
+                <img src="images/fossil_fuels.jpg" width="1200" height="400" alt="fossilFuel">
+                <img src="images/iceMelt.jpg" width="1200" height="400" alt="iceMelt">
+                <img src="images/blue_to_dry.jpg" width="1200" height="400" alt="climate-change">
+                <img src="images/EarthDay.png" width="1200" height="400" alt="earthDay">
+            </div>
+        </div>
+        <div id="slides-2" class="ms-slideshow" data-delay="4000" data-transition="2000">
+            <div class="slides-inner">
+                <img src="images/forTheWorld.jpg" width="300" height="169" alt="forTheWorld">
+                <img src="images/NoPlanetB.jpg" width="300" height="169" alt="NoPlanetB">
+                <img src="images/saveOurFuture.jpg" width="300" height="169" alt="saveOurFuture">
+                <img src="images/wakeUp.jpg" width="300" height="169" alt="wakeUp">
+                <img src="images/oneWorld.jpg" width="300" height="169" alt="oneWorld">
+            </div>
+
+        </div>
+
+        <script src="slide-show.js"></script>
+
+    </body>
+</html>
